@@ -77,7 +77,7 @@ left: 0;
 /* Toggle Theme */
 .toggleTheme {
   position: fixed;
-  top: 6rem;
+  top: 5rem;
   right: -20rem;
   background: #000;
   z-index: 10000;

@@ -15,8 +15,8 @@ ScrollReveal().reveal('.right', { origin: 'right' });
 const typed = new Typed('.multiple-text', {
     strings: ['FrontEnd Developer', 'UI/UX Designer', 'Creative Developer'],
     typeSpeed: 100,
-    backSpeed: 100,
-    backDelay: 1000,
+    backSpeed: 150,
+    backDelay: 100,
     loop: true
   });
 
