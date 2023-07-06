@@ -133,15 +133,80 @@ html.sr .home-content {
 }
 
 
-@media screen and (min-width:300px) and (max-width:986px){
+@media screen and (min-width:300px) and (max-width:499px){
 .dekh{
   display: flex;
   flex-direction: column-reverse;
 }
+.toggle-btn5{
+  width: 20%;
+  margin-left: 10%;
+}
+.heightofnav{
+height: 40px;
+overflow-y: hidden;
+padding-bottom: 10%;
+}
+
 }
 :root {
   --main: #0011ff;
 }
+@media screen and (min-width:500px) and (max-width:986px){
+.dekh{
+ display: flex;
+ flex-direction: row;
+  max-width: 100%;
+}
+.toggle-btn5{
+  width: 20%;
+  margin-left: 10%;
+}
+.heightofnav{
+  height: 45px;
+ overflow-y: hidden;
+ 
+  }
+
+}
+@media screen and (min-width:987px) and (max-width:1600px){
+.heightofnav{
+  height: 50px;
+  overflow-y: hidden;
+}
+}
+:root{
+  --backgroud-color:#fff;
+  --text-color:#555;
+  --title-color:#000;
+}
+.dark-theme{
+  --backgroud-color:#000;
+  --text-color:white;
+  --title-color:#fff;
+}
+body{
+  background: var(--backgroud-color);
+  color: var(--text-color);
+  transition: background 0.8s,color 0.8s;
+}
+.toggle-btn5{
+  border: 2px solid blue;
+  border-radius: 10%;
+  background-color:  #444444;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
