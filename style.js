@@ -32,10 +32,10 @@ const typed = new Typed('.multiple-text', {
     document.body.classList.toggle("dark-theme");
 
     if (document.body.classList.contains("dark-theme")) {
-        btnIcon.src="img/sun1.png"
+        btnIcon.src="img/sun1.webp"
         btnText.innerHTML="Light";
     }else{
-        btnIcon.src="img/moon2.png"
+        btnIcon.src="img/moon2.webp"
         btnText.innerHTML="Dark";
     }
   }

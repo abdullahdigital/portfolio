@@ -8,7 +8,9 @@
 h1 ,h2, .h2 ,h3 ,span,ul li,.toggleTheme{
   overflow-x: visible;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   background: #1f242d;
   color: white;
@@ -142,9 +144,6 @@ html.sr .home-content {
   width: 20%;
   margin-left: 10%;
 }
-/* .heightofnav{
-height: 4rem;
-} */
 #navbar{
   margin-bottom: 10%;
 }
@@ -163,22 +162,17 @@ body{
   max-width: 100%;
 }
 .toggle-btn5{
-  width: 20%;
-  margin-left: 10%;
+  width: 100px;
 }
-/* .heightofnav{
-  height: 4rem;
-  justify-content: center;
-  } */
   body{
     padding-top: 80px;
   }
 }
-@media screen and (min-width:987px) and (max-width:1600px){
-.heightofnav{
-  height: 50px;
-  overflow-y: hidden;
-}
+@media screen and (min-width:987px) and (max-width:1193px){
+  .toggle-btn5{
+    width: 100px;
+    margin-left: 30px;
+  }
 }
 :root{
   --backgroud-color:#fff;
@@ -202,22 +196,3 @@ body{
   color: white;
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
