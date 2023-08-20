@@ -90,21 +90,23 @@ changecolorBtns.forEach((btn) => {
 
 
 
-//download
-document.getElementById("downloadPdfButton").addEventListener("click", function() {
-  // Create a new jsPDF instance
-  var doc = new jsPDF();
+document.addEventListener("DOMContentLoaded", function() {
+  //download
+  document.getElementById("downloadPdfButton").addEventListener("click", function() {
+    // Create a new jsPDF instance
+    var doc = new jsPDF();
 
-  // Set the background color
-  var backgroundColor = getComputedStyle(document.documentElement).getPropertyValue("--main");
-  doc.setFillColor(backgroundColor);
-  doc.rect(0, 0, doc.internal.pageSize.getWidth(), doc.internal.pageSize.getHeight(), 'F');
+    // Set the background color
+    var backgroundColor = getComputedStyle(document.documentElement).getPropertyValue("--main");
+    doc.setFillColor(backgroundColor);
+    doc.rect(0, 0, doc.internal.pageSize.getWidth(), doc.internal.pageSize.getHeight(), 'F');
 
-  // Add your content to the PDF
-  // Example: doc.text(20, 20, 'Hello, World!');
+    // Add your content to the PDF
+    // Example: doc.text(20, 20, 'Hello, World!');
 
-  // Save the PDF
-  doc.save("portfolio.pdf");
+    // Save the PDF
+    doc.save("portfolio.pdf");
+  });
 });
 
 

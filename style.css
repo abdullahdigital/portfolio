@@ -196,3 +196,7 @@ body{
   color: white;
   cursor: pointer;
 }
+.whyIcon{
+  margin-left: -12px;
+  margin-top: -3px;
+}
