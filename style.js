@@ -13,7 +13,7 @@ ScrollReveal().reveal('.right', { origin: 'right' });
 
 // Type Js
 const typed = new Typed('.multiple-text', {
-    strings: ['FrontEnd Developer', 'UI/UX Designer', 'Creative Developer'],
+    strings: ['Full Stack Python Developer', 'UI/UX Designer', ],
     typeSpeed: 100,
     backSpeed: 150,
     backDelay: 100,
