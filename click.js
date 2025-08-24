@@ -108,7 +108,3 @@ document.addEventListener("DOMContentLoaded", function() {
     doc.save("portfolio.pdf");
   });
 });
-
-
-
-
